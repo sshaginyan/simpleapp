@@ -1,0 +1,26 @@
+{
+  "addons": [
+    "herokuconnect",
+    "papertrail",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "PAPERTRAIL_API_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "simpleapp",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
