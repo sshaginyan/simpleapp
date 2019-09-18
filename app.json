@@ -1,8 +1,5 @@
 {
   "addons": [
-    "herokuconnect",
-    "papertrail",
-    "heroku-postgresql"
   ],
   "buildpacks": [
     {
@@ -10,9 +7,6 @@
     }
   ],
   "env": {
-    "PAPERTRAIL_API_TOKEN": {
-      "required": true
-    }
   },
   "formation": {
     "web": {
