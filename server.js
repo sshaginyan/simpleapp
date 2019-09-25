@@ -1,1 +1,1 @@
-require('http').createServer((req, res) => { res.end('Hey! @123 okay! hello ABC'); }).listen(process.env.PORT || 8080);
+require('http').createServer((req, res) => { res.end('Hello World'); }).listen(process.env.PORT || 8080);
